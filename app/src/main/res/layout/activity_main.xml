@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#472F23"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="178dp"
+        android:layout_height="148dp"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="71dp"
+        tools:src="@drawable/coffeicon" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="647dp"
+        android:layout_height="333dp"
+        app:srcCompat="@drawable/quote"
+        tools:layout_editor_absoluteX="-141dp"
+        tools:layout_editor_absoluteY="144dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="179dp"
+        android:layout_height="44dp"
+        android:backgroundTint="#C08C59"
+        android:text="Recommend"
+        android:textColor="#472F23"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="617dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="175dp"
+        android:layout_height="44dp"
+        android:backgroundTint="#C08C59"
+        android:text="List of Coffees"
+        android:textColor="#472F23"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="220dp"
+        tools:layout_editor_absoluteY="617dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
